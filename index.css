@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+}
+.wrapper {
+    display: flex;
+    padding: 0;
+    margin: auto;
+    width: auto;
+    height: 100vh;
+}
+.container1 {
+    flex: 20%;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 2;
+}
+.leftBg {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 150px 0;
+    padding: 10px 120px;
+    height: 120px;
+    background: #00000063;
+    z-index: 3;
+}
+.leftBg > img {
+    width: 100px;
+    height: 120px;
+    padding: 0 5px;
+    color: #ffffff;
+    z-index: 4;
+}
+.leftBg > p {
+    color: #ffffff;
+    font-size: 60px;
+    padding: 25px 0;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    z-index: 4;
+}
+.container1 > p {
+    color: #ffffff;
+    margin: 380px 0 0 0;
+}
+.container2 {
+    flex: 80%;
+    background: #f1f2f6;
+}
+.info {
+    margin: 30px 0 20px 0;
+    padding: 40px 0 25px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info p span {
+    font-style: italic;
+}
+form {
+    margin: auto;
+    text-align: left;
+    padding: 20px 40px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+form > h5 {
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+form .formArea {
+    display: flex;
+    width: 100%;
+}
+form > label {
+    display: block;
+    margin: 10px auto;
+}
+button {
+    background: #417a41;
+    padding: 10px 30px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 40px;
+}
+.container2 > p {
+    margin: 0 40px;
+}
+.container2 > p > a {
+    text-decoration: none;
+    color: #417a41;
+}
